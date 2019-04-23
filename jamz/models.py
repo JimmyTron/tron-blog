@@ -12,5 +12,5 @@ class JAM(models.Model):
     artist = models.CharField(max_length=40)
     date = models.DateField()
     genre = models.CharField(max_length=1, choices=GENRE_CHOICES)
-def __unicode__(self):
-    return "%s by %s, %s" %(self.title, self.artist, self.date.year)
+    def __str__(self):
+        return "%s by %s, %s" %(self.title, self.artist, self.date.year)

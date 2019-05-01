@@ -7,6 +7,6 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.sideBar.location": "right",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "yapf",
+    "workbench.editor.openPositioning": "left"
 }
